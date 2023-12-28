@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 70%;
+  transition: .15s;
 }
 
 code {
